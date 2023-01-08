@@ -6,6 +6,6 @@ import style from 'components/Logo/Logo.module.scss';
 export const Logo = () => (
   <div className={style.logo}>
     <img src={pokeball} alt="pokeball" />
-    <h1>pokelist</h1>
+    <Typography variant="h1">Pokemon</Typography>
   </div>
 );
