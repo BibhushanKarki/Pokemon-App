@@ -20,7 +20,6 @@ export const Card = ({ name }) => {
   if (!sprites.front_default) {
     return <NormalCard name={cardName} />;
   }
-  console.log(cardName, sprites.front_default, sprites.back_default)
   return (
     <FlipCard
       name={cardName}
