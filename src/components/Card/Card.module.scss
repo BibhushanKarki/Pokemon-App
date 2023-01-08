@@ -1,0 +1,8 @@
+.static {
+  background-color: #010101;
+  border-radius: 6px;
+
+  &:hover {
+    box-shadow: 4px 6px 15px 0px rgba(1,1,1,0.36);
+  }
+}
