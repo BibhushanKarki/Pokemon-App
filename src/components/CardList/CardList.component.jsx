@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from 'components/Card';
+import Card from '../Card'
 import styles from './CardList.module.scss';
-import Pagination from 'components/Pagination';
+import Pagination from '../Pagination';
 
 export const CardListComponent= ({ pokemonList }) => (
   <div className={styles.container}>

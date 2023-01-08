@@ -4,7 +4,7 @@ import { FlipCard } from './FlipCard';
 import { LoadingCard } from './LoadingCard';
 import { NormalCard } from './NormalCard';
 
-import { useGetPokemonByNameQuery } from 'api';
+import { useGetPokemonByNameQuery } from '../../api';
 
 
 export const Card = ({ name }) => {
@@ -20,7 +20,7 @@ export const Card = ({ name }) => {
   if (!sprites.front_default) {
     return <NormalCard name={cardName} />;
   }
-
+  console.log(cardName, sprites.front_default, sprites.back_default)
   return (
     <FlipCard
       name={cardName}

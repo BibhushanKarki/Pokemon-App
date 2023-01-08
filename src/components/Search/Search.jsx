@@ -1,7 +1,7 @@
 import {  useEffect, useState } from 'react';
 
 import { SearchComponent } from './Search.component';
-import { useSearch } from 'store/hooks';
+import { useSearch } from '../../store/hooks';
 
 export const Search = () => {
   const [value, setValue] = useSearch();

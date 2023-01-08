@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Card.module.scss';
-import CardImage from 'components/CardImage';
+import CardImage from '../CardImage';
 
 export const NormalCard = ({ name }) => (
   <li className={styles.static}>

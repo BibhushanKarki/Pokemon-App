@@ -1,4 +1,13 @@
-import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { createSlice} from '@reduxjs/toolkit';
+
+const initialState = {
+  fullList: [],
+  searchValue: '',
+  filteredList: [],
+  pageSize: 18,
+  pageNumber: 0,
+  currentPageList: [],
+};
 
 const calcCurrentPageList = (state) => {
   const { filteredList, pageNumber, pageSize } = state;

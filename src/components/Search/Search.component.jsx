@@ -1,5 +1,5 @@
+import { TextField } from '@mui/material';
 import React from 'react';
-import styles from './Search.module.scss';
 
 export const SearchComponent = ({ value, onChange }) => {
   const handleChange = (e) => {
@@ -7,13 +7,14 @@ export const SearchComponent = ({ value, onChange }) => {
   };
 
   return (
-    <input
-      className={styles.search}
-      type="search"
-      value={value}
-      onChange={handleChange}
-      placeholder="Search..."
-      maxLength={12}
-    />
+    <TextField 
+    fullWidth
+    id="outlined-basic" 
+    variant="filled"
+    type="search"
+    value={value}
+    onChange={handleChange}
+    placeholder="Search..."
+    maxLength={12} />
   );
 };

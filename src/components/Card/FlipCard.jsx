@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Card.module.scss';
-import CardImage from 'components/CardImage';
+import CardImage from '../CardImage';
 
-export const FlippingCard = ({ name, frontSprite, backSprite }) => (
+export const FlipCard = ({ name, frontSprite, backSprite }) => (
   <li className={styles.flip}>
     <div className={styles.front}>
       <CardImage sprite={frontSprite} />

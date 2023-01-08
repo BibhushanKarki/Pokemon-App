@@ -1,8 +1,8 @@
 import React, {useCallback } from 'react';
 
 import { PaginationComponent } from './Pagination.component';
-import { useAppDispatch, useAppSelector } from 'store/hooks';
-import { pokemonListActions} from 'store/pokemonList';
+import { useAppDispatch, useAppSelector } from '../../store/hooks';
+import { pokemonListActions} from '../../store/pokemonList';
 
 const { nextPage, previousPage } = pokemonListActions;
 
