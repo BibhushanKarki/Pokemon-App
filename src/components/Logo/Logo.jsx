@@ -1,7 +1,7 @@
 import React from 'react';
 
-import pokeball from 'assets/pokeball.svg';
-import style from 'components/Logo/Logo.module.scss';
+import pokeball from '../../assets/pokeball.svg';
+import style from './Logo.module.scss';
 
 export const Logo = () => (
   <div className={style.logo}>

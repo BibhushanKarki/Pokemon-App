@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'components/Search/Search.module.scss';
+import styles from './Search.module.scss';
 
 export const SearchComponent = ({ value, onChange }) => {
   const handleChange = (e) => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from 'components/Card/Card.module.scss';
+import styles from './Card.module.scss';
 import CardImage from 'components/CardImage';
 
 export const FlippingCard = ({ name, frontSprite, backSprite }) => (

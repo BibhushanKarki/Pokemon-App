@@ -1,6 +1,6 @@
 import {  useEffect, useState } from 'react';
 
-import { SearchComponent } from 'components/Search/Search.component';
+import { SearchComponent } from './Search.component';
 import { useSearch } from 'store/hooks';
 
 export const Search = () => {

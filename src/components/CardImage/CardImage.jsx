@@ -1,7 +1,7 @@
 import React from 'react';
 
 import pokeball from 'assets/pokeball.svg';
-import styles from 'components/CardImage/CardImage.module.scss';
+import styles from './CardImage.module.scss';
 
 
 export const CardImage = ({ sprite }) => {
