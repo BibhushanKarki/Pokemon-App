@@ -1,9 +1,12 @@
-import React from 'react'
+import styles from 'components/App/App.module.scss';
+import Footer from 'components/Footer';
+import Header from 'components/Header';
 
-const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+const App = () => (
+  <div className={styles.app}>
+    <Header />
+    <Footer />
+  </div>
+);
 
-export default App
+export default App;
